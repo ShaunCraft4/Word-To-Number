@@ -12,8 +12,6 @@ Words_To_Numbers={"Hundred":"0"*2,"Thousand":"0"*3,"Million":"0"*6,"Billion":"0"
 
 
 Word_List=Word_number.split()
-
-
 Numbers=[]
 
 
@@ -48,7 +46,6 @@ for i in range(len(Word_List)):
                         if "ty" in TL[j]:
                             n+=str(number_dictionary[TL[j]]+number_dictionary[TL[j+1]])
                             break
-                        
                         else:
                             n+=str(number_dictionary[TL[j]])
                     except:
